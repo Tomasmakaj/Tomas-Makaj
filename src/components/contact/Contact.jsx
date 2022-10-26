@@ -5,6 +5,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 // import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import Swal from 'sweetalert2'
 
 const Contact = () => {
   const form = useRef();
@@ -12,9 +13,18 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_3fjfb17', 'template_ky1ucaz', form.current, 'user_641J0AWGxx4qcKi835yDq')
-
-    e.target.reset()
+    emailjs.sendForm('service_ahg50vj', 'template_1welkmc', form.current, 'W0WzL23Z0264HFOjM')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+      Swal.fire(
+        'Good job!',
+        'Your message has been sent!',
+        'success'
+      )
   };
 
   return (
@@ -29,19 +39,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>Tmakajcoding@gmail.com</h5>
             <a href="Tmakajcoding@gmail.com" target="_blank">Send a message</a>
-          {/* </article>
-          <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>egatortutorials</h5>
-            <a href="https://m.me/ernest.achiever" target="_blank">Send a message</a> */}
           </article>
-          {/* <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon'/>
-            <h4>WhatsApp</h4>
-            <h5>+123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone=+1234567890" target="_blank">Send a message</a>
-          </article> */}
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>

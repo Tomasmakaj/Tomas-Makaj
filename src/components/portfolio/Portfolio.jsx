@@ -15,43 +15,43 @@ const data = [
     image: IMG1,
     title: 'JaBroni Brewery',
     github: 'https://github.com/marcuscrabtree/PunkBeerProject',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    // demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Movie App',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    github: 'https://github.com/Tomasmakaj/React-Oscars',
+    // demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Real Estate App',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'Lucid Real Estate',
+    github: 'https://github.com/Tomasmakaj/Real-Estate-App',
+    // demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'Restaurant App',
-    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+    title: 'Not Shake Shack',
+    github: 'https://github.com/Tomasmakaj/Restaurant-App',
+    // demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'The Hype Hut',
+    github: 'https://github.com/Tomasmakaj/ecom',
+    // demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Final Project',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-  }
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'Final Project',
+  //   github: 'https://github.com',
+  //   demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  // }
 ]
 
 
@@ -72,7 +72,7 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                {/* <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a> */}
               </div>
             </article>
             )
