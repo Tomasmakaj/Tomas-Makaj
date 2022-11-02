@@ -25,9 +25,9 @@
 }
 
 .experience__content {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  row-gap: 3rem;
 }
 
 .experience__details {
@@ -35,9 +35,26 @@
   gap: 1rem;
 }
 
+.icon {
+  display: block;
+  display: flex;
+  width: 75%;
+  object-fit: cover;
+  align-items: center;
+}
+
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
+}
+
+.devicon-devicon-plain {
+  max-width: 2em;
+}
+
+/* if you want to change the original color */
+.devicon-devicon-plain path {
+  fill: #4691f6;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
