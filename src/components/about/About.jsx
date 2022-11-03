@@ -41,7 +41,7 @@ const About = () => {
 
           <p>
           I am a full stack web developer with a passion for problem solving. After graduating from Fordham University with a B.S in Organizational Leadership, I worked in the construction field as a Project Manager until I discovered my love for programming. 
-          During my time at Fordham, my leadership program taught me skills like fostering teamwork, communicating effectively, and motivating one another. Project managing fast paced construction jobs allowed me to think think outside the box especially in the case of problem solving. I am currently open for new opportunities in which I can utilize my web development skills and my passion for creativity.
+          During my time at Fordham, my leadership program taught me skills like fostering teamwork, communicating effectively, and motivating one another. Project managing fast paced construction jobs allowed me to think outside the box especially in the case of problem solving. I am currently open for new opportunities in which I can utilize my web development skills and my passion for creativity.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
