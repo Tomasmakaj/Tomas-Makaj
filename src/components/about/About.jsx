@@ -44,7 +44,7 @@ const About = () => {
           During my time at Fordham, my leadership program taught me skills like fostering teamwork, communicating effectively, and motivating one another. Project managing fast paced construction jobs allowed me to think outside the box especially in the case of problem solving. I am currently open for new opportunities in which I can utilize my web development skills and my passion for creativity.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Contact Me</a>
         </div>
       </div>
     </section>
