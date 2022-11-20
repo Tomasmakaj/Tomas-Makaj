@@ -90,7 +90,7 @@
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
   .about__me {
-    width: 40%;
+    width: 30%;
     margin: 0 auto 3rem;
   }
 
